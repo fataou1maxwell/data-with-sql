@@ -1,12 +1,12 @@
 
 # **Appendix: `sales_company` Database Schema & ERD**
 
-## Part 1 — Text-Based Relational Schema
+## Text-Based Relational Schema
 
 Below is the SQL-style schema extracted directly from the `sales_company` database.  
 It lists all tables, their columns, data types, and key relationships.
 
-### 1.1. DATABASE: sales_company
+### 1. DATABASE: sales_company
 
 ```
 -- ============================================
@@ -55,7 +55,7 @@ CREATE TABLE order_items (
 );
 ```
 
-### 1.2. Relationships Summary
+### 2. Relationships Summary
 
 ```
 customers ───────┐
@@ -66,24 +66,21 @@ customers ───────┐
 
 ```
 
-### 1.3. Row Counts (from INSERT statements)
+#### Interpretation Tip
+
+- Customers connect to orders via customer_id
+- Each order has multiple order_items
+- Each order_item corresponds to a specific product
+
+
+### 3. Row Counts (from INSERT statements)
 
 ```
-| **Table** | **Approx. Rows** |
-|:--|:--:|
-| customers | 16 |
-| orders | ~1,000+ |
-| order_items | ~5,400+ |
-| products | (sample set) |
+| **Table**        | **Approx. Rows**    |
+|------------------|---------------------|
+| customers        | 16                  |
+| orders           | ~1,000+             |
+| order_items      | ~5,400+             |
+| products         | (sample set)        |
 ```
-
----
-
-## Part 2 — Visual ERD (Light Theme)
-A clean, documentation-friendly diagram of the sales_company database, showing logical relationships among all tables.
-
----
-
-## Part 3 — Visual ERD (Dark Theme)
-A modern, presentation-ready dark theme version of the same diagram.
 
