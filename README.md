@@ -19,18 +19,18 @@ You’ll start from the fundamentals and progress toward complex analytical quer
 ## 2. Program Structure
 
 ```
-| **Module** | **Focus Area** | **Level** |
-|:--:|:--|:--:|
-| 1 | SQL Basics and Foundations | 🟢 Beginner |
-| 2 | Filtering, Sorting & Expressions | 🟢 Beginner |
-| 3 | Aggregation and Grouping | 🟡 Lower-Intermediate |
-| 4 | Multi-Table Queries (JOINs) | 🟡 Intermediate |
-| 5 | Subqueries, CTEs & Derived Tables | 🟡 Intermediate |
-| 6 | Window Functions & Analytics | 🟠 Upper-Intermediate |
-| 7 | Data Manipulation (INSERT, UPDATE, DELETE) | 🟡 Intermediate |
-| 8 | Data Modeling & Schema Design | 🟡 Intermediate |
-| 9 | Performance & Optimization Basics | 🟠 Intermediate |
-| 10 | End-to-End Project & Mini-Challenges | 🔵 Applied Practice |
+| **Module** | **Focus Area**                                | **Level**             |
+|------------|-----------------------------------------------|-----------------------|
+| 1          | SQL Basics and Foundations                    | 🟢 Beginner           |
+| 2          | Filtering, Sorting & Expressions              | 🟢 Beginner           |
+| 3          | Aggregation and Grouping                      | 🟡 Lower-Intermediate |
+| 4          | Multi-Table Queries (JOINs)                   | 🟡 Intermediate       |
+| 5          | Subqueries, CTEs & Derived Tables             | 🟡 Intermediate       |
+| 6          | Window Functions & Analytics                  | 🟠 Upper-Intermediate |
+| 7          | Data Manipulation (INSERT, UPDATE, DELETE)    | 🟡 Intermediate       |
+| 8          | Data Modeling & Schema Design                 | 🟡 Intermediate       |
+| 9          | Performance & Optimization Basics             | 🟠 Intermediate       |
+| 10         | End-to-End Project & Mini-Challenges          | 🔵 Applied Practice   |
 ```
 
 ---
