@@ -50,8 +50,7 @@ The entire program uses a real-world simulation dataset called **`sales_company`
 
 The logical flow of the database follows the typical structure of a sales system — from customers placing orders, to specific items being ordered, and products being referenced.
 
-```mermaid
-erDiagram
+```
     CUSTOMERS ||--o{ ORDERS : "places"
     ORDERS ||--|{ ORDER_ITEMS : "contains"
     PRODUCTS ||--o{ ORDER_ITEMS : "referenced in"
