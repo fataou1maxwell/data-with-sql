@@ -7,7 +7,7 @@ This project includes structured modules, real-world datasets, and hands-on exer
 
 ---
 
-## 1. Project Overview
+## 1. Course Overview
 
 This repository is part of a complete learning program:
 > **Goal:** Build strong, practical SQL skills through guided lessons, interactive challenges, and real-world analytics projects.
@@ -16,7 +16,7 @@ You’ll start from the fundamentals and progress toward complex analytical quer
 
 ---
 
-## 2. Program Structure
+## 2. Course Structure
 
 ```
 | **Module** | **Focus Area**                                | **Level**             |
