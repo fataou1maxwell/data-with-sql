@@ -84,7 +84,7 @@ customers ───────┐
 | products         | (sample set)        |
 ```
 
-##  Entity-Relationship Diagram (ERD)
+### 3. Entity-Relationship Diagram (ERD)
 
 The following Mermaid ERD shows how tables in the `sales_company` database relate to one another.  
 
