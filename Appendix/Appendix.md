@@ -84,3 +84,41 @@ customers ───────┐
 | products         | (sample set)        |
 ```
 
+##  Entity-Relationship Diagram (ERD)
+
+The following Mermaid ERD shows how tables in the `sales_company` database relate to one another.  
+
+```
+    CUSTOMERS ||--o{ ORDERS : "places"
+    ORDERS ||--|{ ORDER_ITEMS : "contains"
+    PRODUCTS ||--o{ ORDER_ITEMS : "referenced in"
+
+    CUSTOMERS {
+        int customer_id PK
+        varchar first_name
+        varchar last_name
+        varchar email
+        varchar country
+        date signup_date
+    }
+
+    ORDERS {
+        int order_id PK
+        int customer_id FK
+        date order_date
+    }
+
+    ORDER_ITEMS {
+        int order_item_id PK
+        int order_id FK
+        int product_id FK
+        int quantity
+    }
+
+    PRODUCTS {
+        int product_id PK
+        varchar product_name
+        varchar category
+        decimal price
+        boolean in_stock
+    }
